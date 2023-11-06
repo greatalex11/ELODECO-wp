@@ -1,0 +1,40 @@
+2023-11-01T10:47:55+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-content\plugins\perso-02\wp-perso-02-extract.php:33
+Stack trace:
+#0 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php(310): mon_plugin_extract('')
+#1 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-admin\admin.php(259): do_action('settings_page_m...')
+#4 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-admin\options-general.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown dans C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-content\plugins\perso-02\wp-perso-02-extract.php à la ligne 33
+
+2023-11-01T10:48:58+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-content\plugins\perso-02\wp-perso-02-extract.php:33
+Stack trace:
+#0 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php(310): mon_plugin_extract('')
+#1 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-admin\admin.php(259): do_action('settings_page_m...')
+#4 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-admin\options-general.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown dans C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-content\plugins\perso-02\wp-perso-02-extract.php à la ligne 33
+
+2023-11-01T10:50:19+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-content\plugins\perso-02\wp-perso-02-extract.php:33
+Stack trace:
+#0 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php(310): mon_plugin_extract('')
+#1 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-admin\admin.php(259): do_action('settings_page_m...')
+#4 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-admin\options-general.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown dans C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-content\plugins\perso-02\wp-perso-02-extract.php à la ligne 33
+
+2023-11-01T11:05:57+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-content\plugins\perso-02\wp-perso-02-extract.php:36
+Stack trace:
+#0 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php(310): mon_plugin_extract('')
+#1 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-admin\admin.php(259): do_action('settings_page_m...')
+#4 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-admin\options-general.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown dans C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-content\plugins\perso-02\wp-perso-02-extract.php à la ligne 36
+

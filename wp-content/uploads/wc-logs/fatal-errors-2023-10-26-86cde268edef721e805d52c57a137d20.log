@@ -1,0 +1,24 @@
+2023-10-26T12:10:48+00:00 CRITICAL syntax error, unexpected token "-", expecting "(" dans C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-content\plugins\perso-01\wp-perso-01.php à la ligne 25
+
+2023-10-26T12:10:52+00:00 CRITICAL syntax error, unexpected token "-", expecting "(" dans C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-content\plugins\perso-01\wp-perso-01.php à la ligne 25
+
+2023-10-26T12:10:52+00:00 CRITICAL syntax error, unexpected token "-", expecting "(" dans C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-content\plugins\perso-01\wp-perso-01.php à la ligne 25
+
+2023-10-26T14:35:42+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "manage_config" not found or invalid function name in C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-admin\admin.php(259): do_action('settings_page_m...')
+#3 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-admin\options-general.php(10): require_once('C:\\laragon\\www\\...')
+#4 {main}
+  thrown dans C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php à la ligne 310
+
+2023-10-26T14:39:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "manage_config" not found or invalid function name in C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-admin\admin.php(259): do_action('settings_page_m...')
+#3 C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-admin\options-general.php(10): require_once('C:\\laragon\\www\\...')
+#4 {main}
+  thrown dans C:\laragon\www\Wordpress\premiere-installation\wordpress\wp-includes\class-wp-hook.php à la ligne 310
+
