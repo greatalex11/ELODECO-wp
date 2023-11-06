@@ -74,7 +74,7 @@ add_action(
                   'title' => $post->titre,
                   'content' => $post->post_content,
                   'date' => $post->post_date,
-                  'custom_field' => get_post_meta($post->ID, 'projetsChamps', true)
+                  // 'custom_field' => get_post_meta($post->ID, 'projetsChamps', true)
                );
                return $results;
             }
