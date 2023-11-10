@@ -31,3 +31,15 @@ require get_template_directory() . '/inc/functions.php';
 
 // Initialize the theme.
 call_user_func('Kadence\kadence');
+/*
+if (function_exists('acf_register_block_type')) {
+	add_action('acf/init', function () {
+		acf_register_block_type([
+			'name' => 'heightlighted_post',
+			'title' => 'article mis en avant',
+			'render_callback' => function () {
+				echo 'bonjour à tous';
+			}
+		]);
+	});
+};*/
