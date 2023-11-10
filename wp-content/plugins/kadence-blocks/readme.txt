@@ -4,7 +4,7 @@ Tags: gutenberg, blocks, page builder, google fonts, dual buttons, svg icons, ed
 Donate link: https://www.kadencewp.com/about-us/
 Requires at least: 6.1
 Tested up to: 6.3
-Stable tag: 3.1.22
+Stable tag: 3.1.23
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -96,6 +96,15 @@ assist you with verification, CVE assignment, and notify the
 developers of this plugin.
 
 == Changelog ==
+
+= 3.1.23 =
+Release Date: November 1st, 2023
+* Update: Include a tiktok icon.
+* Fix: Issue with icon list margin.
+* Fix: Issue with advanced form max width units.
+* Fix: Progress bar mask align center.
+* Fix: Issue with gallery hidden when added to a horizontal direction.
+* Fix: Issue with required message for file upload in form.
 
 = 3.1.22 =
 Release Date: October 18th, 2023
