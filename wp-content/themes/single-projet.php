@@ -22,7 +22,7 @@ get_header();
 
 </div>
 <?php endwhile; ?>
-teeeest
+MON THEME ADORE
 <?php
 kadence()->print_styles('kadence-content');
 /**

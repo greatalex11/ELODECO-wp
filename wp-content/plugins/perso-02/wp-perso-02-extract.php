@@ -1,6 +1,5 @@
 
 <?php
-
 /**
  * Plugin Name: PERSO2-Extract JSON Plugin
  * Description: Extraction donnees Response WP
@@ -24,11 +23,20 @@ add_action('admin_menu', 'plugin_ajout_txtpage2');
 
 function mon_plugin_extract2()
 {
+   $endpoint = "http://localhost/wp-json/acf/v3/projet"; //"http://localhost/wp-json""
+   $json = json_decode(file_get_contents($endpoint), false);
 
-   //gros grain : recup du gros json
-   $endpoint = "http://localhost/wp-json/acf/v3/projet";
-   $json = json_decode(file_get_contents($endpoint), true);
-   dump($json);
+   foreach ($json as $projets) {
+      $info[] =
+         [
+            'ID' => $projets->id,
+            'acf1' => $projets->acf->titre,
+            'acf2' => $projets->acf->descriptif,
+            'acf3' => $projets->acf->date_de_debut ?? "Pas encore de jalon",
+            'acf4' => $projets->acf->budget ?? "Pas de buget",
+         ];
+   }
+   dump($info);
 }
 
 /**

@@ -14,12 +14,10 @@ if (!defined('ABSPATH')) {
 get_header();
 ?>
 <div id="main-content" class="article-wrapper">
-
 	<?php
 	while (have_posts()) : the_post();
 	?>
-		<p>"coucou" </p>
-
+		<p>"SINGLE PERSONNALISE" </p>
 </div>
 <?php endwhile; ?>
 
@@ -32,5 +30,4 @@ do_action('single-projet');
 $test = get_field('titre');
 echo $test;
 get_footer();
-
 ?>
